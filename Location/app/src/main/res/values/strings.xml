@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Location</string>
+    <string name="GPSAlertDialogTitle">GPS</string>
+    <string name="GPSAlertDialogMessage">Welcome to GPS Finder</string>
+    <string name="action_settings">Action</string>
+    <string name="cancel">Cancel</string>
+</resources>

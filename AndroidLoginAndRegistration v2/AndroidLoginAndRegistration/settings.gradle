@@ -1,0 +1,1 @@
+include ':app', ':activation', ':droidmail', ':droidprogress', ':jCSS-Parser-0.0.2-sources', ':additionnal', ':mail', ':droidquery', ':nineoldandroids'

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\eb0b932e08eb20180626dddfe4e91cd55ad06d9e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="F:\srutz\android\OpencvAndroid-master\OpencvAndroid-master\app\build\intermediates\pre-dexed\debug\classes_9c28fbc3a0a8007251c5f10fe67ad6fc8592aa31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="F:\srutz\android\OpencvAndroid-master\OpencvAndroid-master\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_af3ff41e4f7c1efd311bba3c56bce336f57a0db8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\f9de99d35477446d7f9934d5022df0d6a6199cd4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="F:\srutz\android\OpencvAndroid-master\OpencvAndroid-master\app\build\intermediates\pre-dexed\debug\classes_29c8f176a26e954a3b0fcf578ddd41a16a41a46a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\srutz\android\OpencvAndroid-master\OpencvAndroid-master\openCVLibrary310\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e31a6761d57046943284baf43f4b5eb3be55c2d">
+        <dex dex="F:\srutz\android\OpencvAndroid-master\OpencvAndroid-master\app\build\intermediates\pre-dexed\debug\classes_a98f1e9d79c3bfb4eb41fe0405380fe986295429.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:background="@drawable/mainactivity"
+    android:orientation="vertical"
+    tools:context="com.example.android.locationfinder.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif"
+        android:text="check? " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif"
+        android:text="check?"
+        android:id="@+id/check" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif"
+            android:text="Your Latitude: " />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/black"
+        android:text="Location Goes here!"
+        android:id="@+id/location" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif"
+            android:text="Your Longitude: "
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif"
+        android:text="Longitude Goes here!"
+        android:id="@+id/longitude"
+        />
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textStyle="italic"
+
+            android:fontFamily="sans-serif"
+            android:text="Check in address: "
+
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif"
+        android:text="Address"
+        android:id="@+id/address"
+        />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Direction from check in"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:alpha="0.75"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/fetch_address_button"
+            android:onClick="viewMap"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/login_button_selector"
+            android:id="@+id/viewmap" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fetch Check In Address"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:alpha="0.75"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        android:onClick="fetchAddressButtonHandler"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/login_button_selector"
+        android:id="@+id/fetch_address_button"/>
+<Button
+    android:text="View Attendance Chart"
+    android:onClick="viewChart"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/view"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintBottom_toTopOf="@+id/apply"
+    android:layout_marginBottom="8dp"
+    android:alpha="0.75"
+    android:textStyle="bold"
+    android:textColor="@android:color/white"
+    android:background="@drawable/login_button_selector"
+    android:textSize="16sp"
+
+    android:textAlignment="center"
+    />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="applyShared"
+            android:id="@+id/apply"
+            android:alpha="0.75"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/clear"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/login_button_selector"
+            android:text="Apply Attendance Chart"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clearShared"
+        android:id="@+id/clear"
+        android:alpha="0.75"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/login_button_selector"
+        android:text="Clear Attendance Chart"
+        />
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

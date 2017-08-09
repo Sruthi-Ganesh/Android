@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "850083829609",
+    "project_id": "signin-ab918"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850083829609:android:77852b9af986b352",
+        "android_client_info": {
+          "package_name": "com.example.android.greekart1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850083829609-5m25meh3rp6nhaav3hqbvn62636ebvu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.greekart1",
+            "certificate_hash": "e7656f062e92fda2ed8670fd9554905a7a6355f6"
+          }
+        },
+        {
+          "client_id": "850083829609-qb27kejqdmln8svn83oht0tt8v4mbjrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQFXwoAg9FXwPQntFLgiKt9s0bFrelWxk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

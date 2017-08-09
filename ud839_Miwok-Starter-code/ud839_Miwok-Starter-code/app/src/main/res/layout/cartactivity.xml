@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:minHeight="@dimen/list_item_height"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome, Your order is given below"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+    <ImageView
+        android:layout_height="@dimen/list_item_height"
+        android:layout_width="@dimen/list_item_height"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imageofproduct"
+        >
+
+    </ImageView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:paddingLeft="16dp"
+        android:id="@+id/linearLayout1"
+        >
+
+        <TextView
+            android:text="lutti"
+            android:layout_height="20dp"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:id="@+id/nameofproduct">
+        </TextView>
+
+        <TextView
+            android:text="one"
+            android:layout_height="20dp"
+            android:layout_width="match_parent"
+
+            android:gravity="top"
+
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:id="@+id/priceofproduct">
+
+        </TextView>
+
+
+        <TextView
+            android:text="one"
+            android:layout_height="20dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:id="@+id/quantity">
+
+        </TextView>
+
+        <TextView
+            android:text="one"
+            android:layout_height="20dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="top"
+
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:id="@+id/priceforquantity">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="placeOrder"
+        android:text="Place Order" />
+
+</LinearLayout>

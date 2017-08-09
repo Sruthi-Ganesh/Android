@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\jCSS-Parser-0.0.2-sources\jCSS-Parser-0.0.2-sources.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9b021775c0d79d300ac17112a00d5d7d3c994700">
+        <dex dex="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\jCSS-Parser-0.0.2-sources_9fd50d28dc427bddc471a0ce3c66d30b00f5ce78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\mail\mail.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\mail_8d98230ce88754d1c93a4dc19e6e5b61eef3c261.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\user\.android\build-cache\0fbfff0dac5df2ab3d660224a4726432fb3a7e8c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_dfdc297de865e1d8c8a8ff37aa14be23d14a0199.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\additionnal\additionnal.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\additionnal_1d7e48214af79394defe3724a86003faa49f00d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\activation\activation.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\activation_7d3775468cad33780d8aedaf1d24ee30e03c4de5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\nineoldandroids\nineoldandroids.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fceb86d00ba4eab06166cbdcd9b44aa1b11daea7">
+        <dex dex="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\nineoldandroids_219f1b474b0cb0e65701056568dc322c01e73a14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\droidprogress\droidprogress.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6f0d0555e3fa85b9bc0bfe2eab1ed214cd9d353f">
+        <dex dex="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\droidprogress_1317bf3d790cb8122ebd09f9455499de1340cb21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\droidquery\droidquery.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1a31c964962b506ecee94a648b32ae4742e8c5e">
+        <dex dex="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\droidquery_2880fdbf1448f0b470a16ebe9f75c442989371b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\droidmail\droidmail.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4b7f22aa181c08bdbc7d5753adb35be23df1f68">
+        <dex dex="F:\srutz\android\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\droidmail_19c32e32c577d2aee7ba34fe0335bcbbb6b3c9e8.jar" />
+    </item>
+
+</items>

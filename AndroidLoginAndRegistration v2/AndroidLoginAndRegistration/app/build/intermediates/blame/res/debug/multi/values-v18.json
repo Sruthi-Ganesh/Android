@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\srutz\\android\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\.android\\build-cache\\1a6ed591ce182e4be7c14d24d4ba2a2d065fd00e\\output\\res\\values-v18\\values-v18.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 48,
+                        "endOffset": 273
+                    }
+                }
+            }
+        ]
+    }
+]

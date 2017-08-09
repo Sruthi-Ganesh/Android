@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">online ordering</string>
+    <string name="search_hint"> Search items </string>
+    <string-array name="Groceries" >
+        <item> Fruits and Vegetables </item>
+        <item> Personal Care </item>
+        <item> House Hold </item>
+        <item> Beverages </item>
+        <item> Branded Foods </item>
+        <item> Groceries </item>
+
+    </string-array>
+</resources>

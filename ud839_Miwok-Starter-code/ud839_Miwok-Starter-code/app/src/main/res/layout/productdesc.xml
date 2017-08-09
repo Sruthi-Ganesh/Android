@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.android.miwok.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:src="@mipmap/ic_launcher"
+    android:scaleType="centerCrop"
+    android:id="@+id/imageproduct"
+
+    />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/imageproduct"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="lutti"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:id="@+id/name">
+    </TextView>
+
+    <TextView
+        android:text="one"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:id="@+id/price">
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+            android:onClick="decrement"
+
+        android:id="@+id/decrease"
+        />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:id="@+id/numberofproduct"
+            android:text="1"
+            />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+            android:onClick="increment"
+            android:id="@+id/increase"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="in Kgs"
+    android:textStyle="italic"
+    />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy Now"
+        android:onClick="buyNow"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:onClick="addToCart"
+        />
+</LinearLayout>
+
+</RelativeLayout>

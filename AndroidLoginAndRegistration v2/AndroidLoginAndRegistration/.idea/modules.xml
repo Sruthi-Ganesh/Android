@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidLoginAndRegistration.iml" filepath="$PROJECT_DIR$/AndroidLoginAndRegistration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activation/activation.iml" filepath="$PROJECT_DIR$/activation/activation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/additionnal/additionnal.iml" filepath="$PROJECT_DIR$/additionnal/additionnal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droidmail/droidmail.iml" filepath="$PROJECT_DIR$/droidmail/droidmail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droidprogress/droidprogress.iml" filepath="$PROJECT_DIR$/droidprogress/droidprogress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droidquery/droidquery.iml" filepath="$PROJECT_DIR$/droidquery/droidquery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jCSS-Parser-0.0.2-sources/jCSS-Parser-0.0.2-sources.iml" filepath="$PROJECT_DIR$/jCSS-Parser-0.0.2-sources/jCSS-Parser-0.0.2-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail/mail.iml" filepath="$PROJECT_DIR$/mail/mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nineoldandroids/nineoldandroids.iml" filepath="$PROJECT_DIR$/nineoldandroids/nineoldandroids.iml" />
+    </modules>
+  </component>
+</project>
